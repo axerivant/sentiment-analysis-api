@@ -1,0 +1,19 @@
+{
+	"name": "sentiment-analysis-api",
+	"version": "1.0.0",
+	"description": "A simple service that analyses a short english phrase and determines is its positive, negative or neutral. ",
+	"main": "main.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Axer Ivant",
+	"license": "MIT ",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"fastify": "^4.9.2",
+		"openai": "^3.0.1"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.7"
+	}
+}
